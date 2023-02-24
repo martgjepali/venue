@@ -1,0 +1,52 @@
+.p-s {
+    font-size: 0.9em;
+    line-height: 23px;
+    color: #8f8f8f;
+  }
+  
+  .h-s {
+    margin: 0;
+  }
+  
+  .skewed {
+    position: absolute;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%, 0% 38%);
+    width: 50%;
+    padding: 2.5em 5em 2.5em 2.5em;
+    color: #f1f1f1;
+    background: #111;
+    margin: 2em 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  .a-s {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about-content {
+    display: flex;
+    position: relative;
+  }
+  
+  .image {
+    padding-top: 2em;
+    width: 100%;
+    height: 66.7vh;
+    position: relative;
+    /* object-fit: fit; */
+  }
+
+  @media screen and (max-width: 600px) {
+    .image {
+      display: none;
+    }
+  
+    .skewed {
+      position: relative;
+      width: 100%;
+      clip-path: none;
+      padding: 1.5em;
+    }
+  }

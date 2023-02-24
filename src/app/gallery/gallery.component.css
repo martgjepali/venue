@@ -1,0 +1,13 @@
+@media (min-width: 576px)
+{
+    .modal {
+        --bs-modal-margin: 1.75rem;
+        --bs-modal-box-shadow: tomato;
+    }
+}
+
+.custom-image{
+    object-fit: cover;
+    height: 170px;
+    width: 100%;
+}
